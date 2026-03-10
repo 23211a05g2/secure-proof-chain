@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+ # Secure Proof Chain – Blockchain Certificate Verification System
 
-## Project info
+## 📌 Project Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Secure Proof Chain is a web-based application designed to issue and verify academic certificates securely.
+The system helps institutions generate tamper-proof certificates and allows anyone to verify their authenticity using a unique certificate ID.
 
-## How can I edit this code?
+This project aims to reduce fake certificates and provide a transparent verification system.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* 🎓 Issue digital certificates
+* 🔍 Verify certificates using a unique certificate ID
+* 🔐 Tamper-proof certificate storage
+* 🌐 Web-based verification system
+* ⚡ Fast and secure verification process
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠 Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Frontend:** React + Vite
+* **Backend:** Supabase
+* **Database:** PostgreSQL (Supabase)
+* **Styling:** Tailwind CSS
+* **Version Control:** Git & GitHub
+* **Deployment:** Vercel
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Project Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```
+secure-proof-chain
+│
+├── public
+├── src
+├── supabase
+├── index.html
+├── package.json
+├── tailwind.config.ts
+└── README.md
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ⚙ Installation & Setup
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/secure-proof-chain.git
+```
+
+2. Open the project folder
+
+```
+cd secure-proof-chain
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+5. Open in browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔍 How Certificate Verification Works
 
-## What technologies are used for this project?
+1. The institution uploads certificate details.
+2. The system stores the certificate in the database.
+3. Each certificate receives a unique certificate ID.
+4. Users enter the certificate ID on the verification page.
+5. The system checks the database and displays whether the certificate is **Valid or Invalid**.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌍 Future Improvements
 
-## How can I deploy this project?
+* QR Code certificate verification
+* Blockchain hash storage
+* Admin dashboard for certificate management
+* Certificate download and sharing features
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 👨‍💻 Author
 
-Yes, you can!
+**Lavudya Vishnu Nayak**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+B.Tech – Computer Science Engineering
+Mini Project: Certificate Verification System
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 📜 License
+
+This project is for educational purposes.
